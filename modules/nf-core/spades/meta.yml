@@ -168,10 +168,12 @@ authors:
   - "@JoseEspinosa"
   - "@drpatelh"
   - "@d4straub"
+  - "@bunop"
 maintainers:
   - "@JoseEspinosa"
   - "@drpatelh"
   - "@d4straub"
+  - "@bunop"
 containers:
   docker:
     linux/amd64:
