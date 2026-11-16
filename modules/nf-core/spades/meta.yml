@@ -172,3 +172,27 @@ maintainers:
   - "@JoseEspinosa"
   - "@drpatelh"
   - "@d4straub"
+containers:
+  docker:
+    linux/amd64:
+      name: community.wave.seqera.io/library/spades:4.3.0--ca99aa8b3ff910f5
+      build_id: bd-ca99aa8b3ff910f5_1
+      scan_id: sc-a19fd7a0f51ab622_2
+    linux/arm64:
+      name: community.wave.seqera.io/library/spades:4.3.0--467c919203aaad38
+      build_id: bd-467c919203aaad38_1
+      scan_id: sc-e34e5510de68218d_1
+  singularity:
+    linux/amd64:
+      name: oras://community.wave.seqera.io/library/spades:4.3.0--ac0d5919ef7f46d2
+      build_id: bd-ac0d5919ef7f46d2_1
+      https: https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/bd/bd1aa46fe63e43f2a7bcd7cafded3236b4830bd8ec78adec0c9140e5330d908f/data
+    linux/arm64:
+      name: oras://community.wave.seqera.io/library/spades:4.3.0--fff2319fb6ccc688
+      build_id: bd-fff2319fb6ccc688_1
+      https: https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/60/601b2daea026b0b27c9e2c334a6cc8c8dd1cfde53ac63398507e1e0869ad3447/data
+  conda:
+    linux/amd64:
+      lock_file: modules/nf-core/spades/.conda-lock/linux_amd64-bd-ca99aa8b3ff910f5_1.txt
+    linux/arm64:
+      lock_file: modules/nf-core/spades/.conda-lock/linux_arm64-bd-467c919203aaad38_1.txt
